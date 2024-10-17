@@ -1,0 +1,94 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body, html {
+    height: 100%;
+}
+
+.background-image {
+    background: url('Back.jpeg') no-repeat center center fixed;
+    background-size: cover;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.signup-container {
+    background: rgba(255, 255, 255, 0.9);
+    padding: 40px;
+    border-radius: 15px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    width: 350px;
+}
+
+.signup-container h1 {
+    margin-bottom: 10px;
+    font-size: 2.5em;
+    color: #333;
+}
+
+.signup-container p {
+    color: #666;
+    margin-bottom: 30px;
+    font-size: 0.9em;
+}
+
+.input-group {
+    position: relative;
+    margin-bottom: 25px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+    width: 100%;
+    padding: 12px 15px;
+    margin: 5px 0;
+    border-radius: 10px;
+    border: 1px solid #ccc;
+    background-color: rgba(255, 255, 255, 0.7);
+    font-size: 1em;
+    transition: 0.3s;
+}
+
+input:focus {
+    outline: none;
+    border-color: #007bff;
+    box-shadow: 0 0 8px rgba(0, 123, 255, 0.5);
+}
+
+small {
+    color: red;
+    font-size: 0.8em;
+    position: absolute;
+    bottom: -20px;
+    left: 0;
+}
+
+button[type="submit"] {
+    width: 100%;
+    padding: 12px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    font-size: 1.2em;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button[type="submit"]:hover {
+    background-color: #0056b3;
+}
+
+.success {
+    color: green;
+    font-size: 0.9em;
+    margin-top: 15px;
+}
